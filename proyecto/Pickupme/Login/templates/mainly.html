@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>login</title>
+  </head>
+  <body>
+    <h2>Pick-up-me</h2>
+    <form class="" method="post">
+    {% csrf_token %}
+    <input type="Usuario" name="u" value=""><br>
+    <input type="password" name="p" value=""><br>
+    <input type="submit" name="" value="Entrar">
+  </form><br>
+    {{notificacion}}
+  </body>
+  <a href="/Register/">Registrarme</a>
+</html>
